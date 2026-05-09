@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مكتبة هاني</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>مكتبة هاني</h1>
+    <p>خدمات الطباعة – التصوير – الدفع الإلكتروني – فودافون كاش</p>
+  </header>
+
+  <section class="card">
+    <h2>بيانات التواصل</h2>
+
+    <div class="info">
+      <span>واتساب الشغل:</span>
+      <a href="https://wa.me/201095960704">01095960704</a>
+    </div>
+
+    <div class="info">
+      <span>الكاش والمحمول:</span>
+      <a href="tel:01000849907">01000849907</a>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>الخدمات المتوفرة</h2>
+
+    <div class="service-box">طباعة ألوان وأسود</div>
+    <div class="service-box">تصوير مستندات</div>
+    <div class="service-box">أبحاث وملفات Word</div>
+    <div class="service-box">فودافون كاش</div>
+    <div class="service-box">شحن فوري وخدمات إلكترونية</div>
+  </section>
+
+  <section class="counter">
+    <h2>حاسبة سعر الطباعة</h2>
+
+    <input type="number" id="papers" placeholder="عدد الأوراق" />
+    <button onclick="calculatePrice()">احسب السعر</button>
+
+    <p id="result"></p>
+  </section>
+
+  <footer>
+    <p>جميع الحقوق محفوظة © مكتبة هاني 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #111827, #2563eb);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card,
+.services,
+.counter {
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.info a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: bold;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.service-box {
+  background: #2563eb;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+}
+
+.counter input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.counter button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.counter button:hover {
+  background: #1d4ed8;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111827;
+  color: white;
+  margin-top: 30px;
+}
